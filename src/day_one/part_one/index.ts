@@ -2,7 +2,10 @@ import { promises as fs } from "fs";
 import path from "path";
 
 export const main = async () => {
-    const data = await fs.readFile(path.resolve(__dirname, "input"), "utf8");
+    const data = await fs.readFile(
+        path.resolve(__dirname, "..", "input"),
+        "utf8"
+    );
     const lines = data.split("\n");
 
     let col1: any[] = [];
