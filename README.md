@@ -1,0 +1,3 @@
+Advent of code stuff, not tidy, not efficient. Just get the job done...
+
+https://adventofcode.com/2024
